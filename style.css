@@ -1,0 +1,55 @@
+*🎨 style.css*
+css
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #fffbe6, #fbc8a7);
+  color: #3a2d1c;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+  padding: 2rem;
+  background-color: rgba(255, 245, 215, 0.7);
+}
+
+main {
+  flex: 1;
+  padding: 3rem;
+}
+
+.lyrics p {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.music audio {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.cta.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background: #ffd700;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.cta.btn:hover {
+  background: #ffbb00;
+}
+
+footer {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
